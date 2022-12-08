@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style> 
+    table{
+        color: rgb(12, 12, 11);
+        background-color: rgb(0, 251, 255);
+        
+    }
+    table:hover{
+        color:red;
+        background-color: rgb(48, 10, 237);
+        transition: 1s;
+        opacity: 2.8;
+        cursor: pointer;
+
+    }
+    td:hover{
+        
+        background-color:gold;
+        transition: 1s;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    </style>
+</head>
+<body>
+
+    <table  style="margin-left:43%;">
+        <tr>
+            <td></td>
+            <td style="text-align: center; box-shadow: 2px 2px 2px 2px;">Fruits</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"><img style="box-shadow: 5px 5px 5px 5px;" id="1" src="fruits.jpg" height="100" width="200"></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="document.getElementById('1').src='apple.jpg' " >apple</button></td>
+            <td><button onclick="document.getElementById('1').src='banana.jpg' " >banana</button></td>
+            <td><button onclick="document.getElementById('1').src='grapes' " >grapes</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="document.getElementById('1').src='drangn.jpg' ">Dragon Fruit</button></td>
+            <td><button onclick="document.getElementById('1').src='painaple.jpg' " >Pineapple</button></td>
+            <td><button onclick="document.getElementById('1').src='kivii.jpg' " >kiwi</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="document.getElementById('1').src='orange.jpg' " >  Orange</button></td>
+            <td><button onclick="document.getElementById('1').src='stroberry.jpg' ">Strawberry</button></td>
+            <td><button onclick="document.getElementById('1').src='water mellon.jpg'">Watermelon</button></td>
+        </tr>
+        </tr>
+    </table>
+
+</body>
+</html>
